@@ -1,0 +1,39 @@
+Source: pithos
+Section: gnome
+Priority: optional
+Maintainer: Greg Sheremeta <greg@gregsheremeta.com>
+Build-Depends: cdbs (>= 0.4.90~), debhelper (>= 7), python-all (>=2.7),
+ python-setuptools (>= 0.6b3)
+Standards-Version: 3.9.4
+Homepage: http://pithos.github.io
+XS-Python-Version: >= 2.7 
+
+Package: pithos
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${python:Depends},  ${misc:Depends}, ${cdbs:Depends}, 
+ python-xdg,
+ python-gobject,
+ python-gst0.10,
+ python-notify,
+ python-gtk2,
+ python-dbus,
+ python-pylast,
+ gstreamer0.10-plugins-good,
+ gstreamer0.10-plugins-bad,
+ gstreamer0.10-plugins-ugly
+Description: Pandora.com client for the GNOME desktop
+ Pithos
+ ------
+ .
+ Pithos is a native Pandora Radio client for Linux. It's much more lightweight
+ than the Pandora.com web client, and integrates with desktop features such as media
+ keys, notifications, and the sound menu.
+ .
+ For screenshots, install instructions and more, see
+ [the Pithos home page](http://pithos.github.io).
+ .
+ License: GNU GPLv3+
+ .
+ Pithos is not affiliated with or endorsed by Pandora Media, Inc.
+ .

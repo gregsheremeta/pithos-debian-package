@@ -1,0 +1,10 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+Upstream-Name: pithos
+Upstream-Maintainer: Pithos Team <pithos@lists.launchpad.net>
+Upstream-Source: https://github.com/pithos/pithos
+
+Files: *
+Copyright: (C) 2008-2013 Kevin Mehall <me@kevinmehall.net>
+License: GPL v3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.
