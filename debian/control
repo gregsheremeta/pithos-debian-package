@@ -2,26 +2,28 @@ Source: pithos
 Section: gnome
 Priority: optional
 Maintainer: Greg Sheremeta <greg@gregsheremeta.com>
-Build-Depends: cdbs (>= 0.4.90~), debhelper (>= 7), python-all (>=2.7),
- python-setuptools (>= 0.6b3)
+Build-Depends: cdbs (>= 0.4.90~),
+ debhelper (>= 7),
+ python-all (>=3.0),
+ python-setuptools (>= 0.6.10)
 Standards-Version: 3.9.4
 Homepage: http://pithos.github.io
-XS-Python-Version: >= 2.7 
+XS-Python-Version: >= current
 
 Package: pithos
 Architecture: all
 XB-Python-Version: ${python:Versions}
-Depends: ${python:Depends},  ${misc:Depends}, ${cdbs:Depends}, 
- python-xdg,
- python-gobject,
- python-gst0.10,
- python-notify,
- python-gtk2,
+Depends: ${misc:Depends},
+ ${python:Depends},
+ python-gi,
  python-dbus,
  python-pylast,
- gstreamer0.10-plugins-good,
- gstreamer0.10-plugins-bad,
- gstreamer0.10-plugins-ugly
+ gir1.2-gstreamer-1.0,
+ gir1.2-appindicator3-0.1,
+ gir1.2-notify-0.7,
+ gir1.2-keybinder-3.0,
+ gstreamer1.0-plugins-good,
+ gstreamer1.0-plugins-bad
 Description: Pandora.com client for the GNOME desktop
  Pithos
  ------
