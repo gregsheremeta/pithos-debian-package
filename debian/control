@@ -2,19 +2,15 @@ Source: pithos
 Section: gnome
 Priority: optional
 Maintainer: Greg Sheremeta <greg@gregsheremeta.com>
-Build-Depends: cdbs (>= 0.4.90~),
- debhelper (>= 7),
- python-all (>=3.0),
- python-setuptools (>= 0.6.10)
-Standards-Version: 3.9.4
+Build-Depends: python3 (>= 3.2), debhelper (>= 7)
 Homepage: http://pithos.github.io
-XS-Python-Version: >= current
+Standards-Version: 3.9.4
+X-Python3-Version: >= 3.2
 
 Package: pithos
 Architecture: all
-XB-Python-Version: ${python:Versions}
 Depends: ${misc:Depends},
- ${python:Depends},
+ ${python3:Depends},
  python-gi,
  python-dbus,
  python-pylast,
