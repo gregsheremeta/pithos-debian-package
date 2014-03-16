@@ -21,8 +21,10 @@ cp -r pithos/* $BUILD_DIR/$NAME-$VERSION/pithos
 find $BUILD_DIR/$NAME-$VERSION/pithos -name __pycache__ -exec rm -rf {} \;
 find $BUILD_DIR/$NAME-$VERSION/pithos -name *.pyc -exec rm -rf {} \;
 
-mkdir -p $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor
-cp data/icons/hicolor/*.svg $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor
+mkdir -p $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor/scalable
+mkdir -p $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor/48
+cp data/icons/hicolor/pithos.svg $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor/scalable
+cp data/icons/hicolor/pithos-tray-icon.png $BUILD_DIR/$NAME-$VERSION/data/icons/hicolor/48
 
 mkdir -p $BUILD_DIR/$NAME-$VERSION/data/icons/ubuntu-mono-dark
 cp data/icons/ubuntu-mono-dark/*.svg $BUILD_DIR/$NAME-$VERSION/data/icons/ubuntu-mono-dark

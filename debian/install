@@ -6,7 +6,8 @@ data/icons/ubuntu-mono-light/*.svg usr/share/icons/ubuntu-mono-light/apps/16
 data/icons/ubuntu-mono-light/*.svg usr/share/icons/ubuntu-mono-light/apps/22
 data/icons/ubuntu-mono-light/*.svg usr/share/icons/ubuntu-mono-light/apps/24
 data/icons/ubuntu-mono-light/*.svg usr/share/icons/ubuntu-mono-light/apps/48
-data/icons/hicolor/*.svg usr/share/icons/hicolor/scalable/apps
+data/icons/hicolor/scalable/*.svg usr/share/icons/hicolor/scalable/apps
+data/icons/hicolor/48/*.png usr/share/icons/hicolor/48x48/apps
 data/pithos.desktop usr/share/applications
 data/pithos usr/bin
 pithos/* usr/lib/python3.3/dist-packages/pithos
