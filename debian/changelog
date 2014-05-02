@@ -1,6 +1,6 @@
-pithos (0.4.0~gitfb3c5fc-6) saucy; urgency=low
+pithos (1.0.0) trusty; urgency=high
 
   * See github for the changes. http://github.com/pithos/pithos
 
- -- Greg Sheremeta <greg@gregsheremeta.com>  Sat, 23 Feb 2014 15:00:00 -0500
+ -- Greg Sheremeta <greg@gregsheremeta.com>  Thu, 1 May 2014 23:51:00 -0400
 

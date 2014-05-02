@@ -3,7 +3,7 @@
 
 BUILD_DIR="build"
 NAME="pithos"
-VERSION=0.4.0~gitfb3c5fc-6
+VERSION=1.0.0
 
 
 rm -rf $BUILD_DIR
@@ -44,4 +44,4 @@ debuild -S -sa
 cd ..
 rm -rf $NAME-$VERSION
 
-echo "Now run from the build directory: dput ppa:gsheremeta/ppa ${NAME}_${VERSION}_source.changes"
+echo "if build successful, run from the build directory: dput -f ppa:gsheremeta/pithos-staging ${NAME}_${VERSION}_source.changes"

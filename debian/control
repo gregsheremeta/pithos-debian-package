@@ -11,9 +11,9 @@ Package: pithos
 Architecture: all
 Depends: ${misc:Depends},
  ${python3:Depends},
- python-gi,
- python-dbus,
- python-pylast,
+ python3-gi,
+ python3-dbus,
+ python3-pylast,
  gir1.2-gstreamer-1.0,
  gir1.2-appindicator3-0.1,
  gir1.2-notify-0.7,
@@ -35,3 +35,4 @@ Description: Pandora.com client for the GNOME desktop
  .
  Pithos is not affiliated with or endorsed by Pandora Media, Inc.
  .
+
