@@ -3,7 +3,7 @@
 
 BUILD_DIR="build"
 NAME="pithos"
-VERSION=1.0.0
+VERSION=1.1.0
 
 
 rm -rf $BUILD_DIR
