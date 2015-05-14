@@ -10,5 +10,5 @@ data/icons/hicolor/scalable/*.svg usr/share/icons/hicolor/scalable/apps
 data/icons/hicolor/48/*.png usr/share/icons/hicolor/48x48/apps
 data/pithos.desktop usr/share/applications
 data/pithos usr/bin
-pithos/* usr/lib/python3.4/dist-packages/pithos
-data/pithos.egg-info/* usr/lib/python3.4/dist-packages/pithos.egg-info
+pithos/* usr/lib/python3/dist-packages/pithos
+data/pithos.egg-info/* usr/lib/python3/dist-packages/pithos.egg-info
