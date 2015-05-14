@@ -1,6 +1,6 @@
-pithos (1.1.0) vivid; urgency=high
+pithos (1.1.0-2ppa1) vivid; urgency=high
 
   * See github for the changes. http://github.com/pithos/pithos
 
- -- Greg Sheremeta <greg@gregsheremeta.com>  Thu, 10 May 2015 01:41:00 -0400
+ -- Greg Sheremeta <greg@gregsheremeta.com>  Wed, 13 May 2015 20:25:00 -0400
 
