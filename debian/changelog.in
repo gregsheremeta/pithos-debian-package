@@ -1,0 +1,6 @@
+pithos (@VERSION@-@PKG_VERSION@) @DISTRO@; urgency=high
+
+  * See github for the changes. http://github.com/pithos/pithos
+
+ -- Greg Sheremeta <greg@gregsheremeta.com>  @DATE@
+

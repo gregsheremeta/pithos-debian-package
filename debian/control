@@ -2,9 +2,9 @@ Source: pithos
 Section: gnome
 Priority: optional
 Maintainer: Greg Sheremeta <greg@gregsheremeta.com>
-Build-Depends: python3 (>= 3.2), debhelper (>= 7)
+Build-Depends: python3 (>= 3.2), debhelper (>= 9), python3-setuptools
 Homepage: http://pithos.github.io
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 X-Python3-Version: >= 3.2
 
 Package: pithos
@@ -22,8 +22,7 @@ Depends: ${misc:Depends},
  gir1.2-keybinder-3.0,
  gstreamer1.0-plugins-good,
  gstreamer1.0-plugins-bad
-Recommends: gnome-icon-theme-symbolic
-Description: Pandora.com client for the GNOME desktop
+Recommends: gnome-icon-theme-symbolicDescription: Pandora.com client for the GNOME desktop
  Pithos
  ------
  .
