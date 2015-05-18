@@ -22,7 +22,8 @@ Depends: ${misc:Depends},
  gir1.2-keybinder-3.0,
  gstreamer1.0-plugins-good,
  gstreamer1.0-plugins-bad
-Recommends: gnome-icon-theme-symbolicDescription: Pandora.com client for the GNOME desktop
+Recommends: gnome-icon-theme-symbolic
+Description: Pandora.com client for the GNOME desktop
  Pithos
  ------
  .
