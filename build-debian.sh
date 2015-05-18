@@ -1,8 +1,8 @@
 #!/bin/sh
 
-VERSION=1.0.2
+VERSION=1.0.3
 DISTRO=utopic
-PKG_VERSION=2ppa2
+PKG_VERSION=1ppa1
 
 BUILD_DIR="build"
 NAME="pithos"
