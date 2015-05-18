@@ -1,8 +1,8 @@
 #!/bin/sh
 
-VERSION=1.1.0
+VERSION=1.1.1
 DISTRO=vivid
-PKG_VERSION=2ppa2
+PKG_VERSION=1ppa1
 
 BUILD_DIR="build"
 NAME="pithos"
